@@ -10,6 +10,10 @@ public class ShintyokuDoudesuka {
 		randomDoudesuka();
 	}
 
+	/**
+	 * 「進捗」「どう」「ですか？」の三種類をランダムで表示し
+	 * 「進捗どうですか？」が揃ったら出力を終了する
+	 */
 	public static void randomDoudesuka(){
 		List<Integer> list = new ArrayList<Integer>();
 		boolean flag = false;

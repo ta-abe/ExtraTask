@@ -25,6 +25,13 @@ public class MachesText {
 		}
 	}
 
+	/**
+	 * 指定したパスのテキストファイルから文字列を検索して、見つかった場合
+	 * その行番号と内容を返す
+	 * @param pathname
+	 * @param keyword
+	 * @throws IOException
+	 */
 	public static void outputMatches(String pathname, String keyword) throws IOException{
 
 		File file = null;

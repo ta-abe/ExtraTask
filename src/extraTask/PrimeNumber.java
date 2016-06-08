@@ -44,6 +44,12 @@ public class PrimeNumber {
 		}
 	}
 
+	/**
+	 * 指定した範囲の素数を検索し表示する
+	 * @param n
+	 * @param m
+	 * @return
+	 */
 	public static List<Integer> getPrimeNumberList(int n, int m){
 		List<Integer> primeNumberList = new ArrayList<Integer>();
 		if(n < 0){//負の数は素数ではないのでメッセージを表示
