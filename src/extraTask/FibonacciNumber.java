@@ -2,11 +2,15 @@ package extraTask;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class FibonacciNumber {
 
 	public static void main(String[] args) {
-		List<Integer> fibonacciNumberList = getFibonacciNumberList(100);
+		Scanner scan = new Scanner(System.in);
+		System.out.print("数値を入力してください：");
+		int num =scan.nextInt();
+		List<Integer> fibonacciNumberList = getFibonacciNumberList(num);
 		for(Integer i : fibonacciNumberList){
 			System.out.println(i);//確認用
 		}

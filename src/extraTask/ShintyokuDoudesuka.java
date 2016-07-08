@@ -36,6 +36,10 @@ public class ShintyokuDoudesuka {
 				}
 			}
 			i++;
+			if((i % 10) == 0 )
+			{
+				System.out.println("");
+			}
 		}
 	}
 }
